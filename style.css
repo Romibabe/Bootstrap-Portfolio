@@ -1,0 +1,84 @@
+
+html,body
+{
+background-color: lightgrey;
+max-width: 100%;
+padding:0;
+margin:0, auto;
+overflow-x: hidden;
+}
+
+
+
+
+
+
+
+/*To prevent icons of the connect_with_me from spilling out of the container */
+.jumbotron{
+overflow: hidden;
+}
+
+
+.jumbotron img
+
+{
+
+float:left;
+padding:5px;
+
+
+}
+
+#connect_with_me
+{
+padding:8px;
+}
+
+
+
+.jumbotron h4
+
+{
+
+font-size: 25px;
+color:green;
+font-weight: bold;
+padding:10px;
+
+}
+
+
+.jumbotron p
+
+{
+
+font-size: 15px;
+
+}
+
+#connect_with_me .jumbotron img .img-responsive
+{
+overflow:hidden;
+position:fixed;
+}
+
+
+
+
+
+#portfolio_pics .jumbotron h2 {
+color:green;
+}
+
+.navbar-fixed-bottom {
+ color:gray;
+ display:block;
+ font-family: Trebuchet;
+ font-size:16px;
+
+ text-align: center;
+ padding: 0.3em ;
+ background: black;}
+
+ 
