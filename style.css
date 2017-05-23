@@ -1,4 +1,6 @@
 
+
+
 html,body
 {
 background-color: lightgrey;
@@ -10,6 +12,69 @@ overflow-x: hidden;
 
 
 
+#masthead {
+  position: fixed;
+  z-index: 99;
+  width: 100%;
+  margin: 0 0 30px;
+  overflow: auto;
+  color: #fff;
+  background: #fff;
+  border-bottom: 2px solid #ccc;
+}
+
+#logo {
+  float: left;
+  width: 250px;
+  height: 90px;
+  font-family: Georgia, Times, "Times New Roman", serif;
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 90px;
+  color: #fff;
+  text-align: center;
+  text-decoration: none;
+  background: #4aaaa5;
+}
+
+
+
+#logo:hover,
+input[type=submit]:hover {
+  background: #5e7f7e;
+}
+
+nav a:hover {
+  color: #5e7f7e;
+}
+
+.social:hover {
+  cursor: pointer;
+  opacity: 0.8;
+}
+
+
+nav {
+  float: right;
+  margin-top: 25px;
+}
+
+nav a {
+  display: inline-block;
+  padding-left: 15px;
+  margin-left: 15px;
+  line-height: 18px;
+  color: #999;
+  text-decoration: none;
+  border-left: 1px solid #efefef;
+}
+
+nav a:first-child {
+  border-left: 0 none;
+}
+
+
+
 
 
 
@@ -17,6 +82,9 @@ overflow-x: hidden;
 /*To prevent icons of the connect_with_me from spilling out of the container */
 .jumbotron{
 overflow: hidden;
+padding:130px;
+margin:15px;
+
 }
 
 
@@ -32,7 +100,8 @@ padding:5px;
 
 #connect_with_me
 {
-padding:8px;
+padding-right: :10px;
+padding-left: 10px;
 }
 
 
@@ -64,7 +133,10 @@ position:fixed;
 }
 
 
+#portfolio_pics{
 
+padding:8px;
+}
 
 
 #portfolio_pics .jumbotron h2 {
@@ -72,13 +144,12 @@ color:green;
 }
 
 .navbar-fixed-bottom {
- color:gray;
+ color:darkgray;
  display:block;
  font-family: Trebuchet;
  font-size:16px;
-
  text-align: center;
  padding: 0.3em ;
- background: black;}
+ background: teal;}
 
  
